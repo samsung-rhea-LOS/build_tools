@@ -2,14 +2,6 @@
 
 cd ..
 
-echo "Removing Camera2"
-rm -rf packages/apps/Camera2
-echo "Removing Eleven"
-rm -rf packages/apps/Eleven
-echo "Removing Calculator"
-rm -rf packages/apps/Calculator
-echo "Head over to patches"
-
 COUNT=0
 CURRENT_DIR="$PWD"
 PD="build_tools/patches"
